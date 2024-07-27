@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Product Name EditText -->
+    <EditText
+        android:id="@+id/editTextProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Tên Sản Phẩm"
+        android:padding="16dp" />
+
+    <!-- Product Description EditText -->
+    <EditText
+        android:id="@+id/editTextProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Mô Tả Sản Phẩm"
+        android:padding="16dp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:scrollHorizontally="false" />
+
+
+    <!-- Image URL EditText -->
+    <EditText
+        android:id="@+id/editTextImageUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Đường Dẫn Hình Ảnh"
+        android:padding="16dp" />
+
+    <!-- Product Price EditText -->
+    <EditText
+        android:id="@+id/editTextProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Giá Sản Phẩm"
+        android:padding="16dp" />
+
+    <!-- Product Category Spinner -->
+    <Spinner
+        android:id="@+id/spinnerProductCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp" />
+
+    <!-- Save Product Button -->
+    <Button
+        android:id="@+id/buttonSaveProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="Lưu" />
+
+</LinearLayout>

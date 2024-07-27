@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">QuanLyCH</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cài Đặt</string>
+    <string name="action_search">Tìm Kiếm</string>
+    <string name="action_cart">Giỏ Hàng</string>
+
+    <string name="menu_home">Trang Chủ</string>
+    <string name="menu_gallery">Sản phẩm</string>
+    <string name="menu_cart">Giỏ hàng</string>
+    <string name="menu_slideshow">Lịch sử đặt hàng</string>
+    <string name="menu_logout">Đăng xuất</string>
+    <string name="menu_productdetails">Chi tiết sản phẩm</string>
+    <string name="menu_thanhtoan">Thanh toán</string>
+    <!-- ADMIN-->
+    <string name="menu_chart">Thống kê</string>
+    <string name="menu_order">Đơn hàng</string>
+    <string name="menu_user">Tài khoản</string>
+    <string name="menu_adduser">Thêm tài khoản</string>
+    <string name="product_image_description">Product Image</string>
+    <string name="add_product">Thêm sản phẩm</string>
+    <string name="edit">Sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="product_name">Tên sản phẩm</string>
+    <string name="product_description">Chi tiết sản phẩm</string>
+    <string name="product_price">Giá</string>
+    <string name="save_product">Lưu sản phẩm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_category">Add Category</string>
+</resources>
