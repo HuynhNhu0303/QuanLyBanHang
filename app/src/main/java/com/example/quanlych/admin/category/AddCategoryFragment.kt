@@ -31,7 +31,7 @@ class AddCategoryFragment : Fragment() {
             saveCategory()
         }
     }
-
+//text
     private fun saveCategory() {
         val categoryName = editTextCategoryName.text.toString()
 
